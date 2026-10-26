@@ -1,0 +1,7 @@
+{
+  "priya": {"name": "Priya Nair", "role": "Account Executive", "groups": ["everyone", "sales"]},
+  "rahul": {"name": "Rahul Mehta", "role": "Account Executive", "groups": ["everyone", "sales"]},
+  "arjun": {"name": "Arjun Rao", "role": "Support Engineer", "groups": ["everyone", "support"]},
+  "meera": {"name": "Meera Iyer", "role": "HR Business Partner", "groups": ["everyone", "hr"]},
+  "anita": {"name": "Anita Desai", "role": "VP Customer Success", "groups": ["everyone", "sales", "support", "leadership", "approver"]}
+}

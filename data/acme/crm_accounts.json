@@ -1,0 +1,46 @@
+[
+  {
+    "id": "ACC-1001",
+    "name": "Northwind Bank",
+    "industry": "Banking",
+    "arr_usd": 420000,
+    "owner": "priya",
+    "renewal_date": "2026-12-15",
+    "health": "at_risk",
+    "notes": "Strategic account. CIO is unhappy about two SSO outages in Q3 and has asked for a written root-cause analysis before renewal talks. Expansion into their wealth division is on hold until the SSO issue is closed.",
+    "updated_at": "2026-10-20T09:15:00Z"
+  },
+  {
+    "id": "ACC-1002",
+    "name": "Contoso Retail",
+    "industry": "Retail",
+    "arr_usd": 185000,
+    "owner": "priya",
+    "renewal_date": "2027-03-01",
+    "health": "healthy",
+    "notes": "Rolled out invoice-processing automation to 40 stores. Champion is the VP Finance. Interested in demand-forecasting agents next year.",
+    "updated_at": "2026-10-02T14:40:00Z"
+  },
+  {
+    "id": "ACC-1003",
+    "name": "Fabrikam Insurance",
+    "industry": "Insurance",
+    "arr_usd": 260000,
+    "owner": "rahul",
+    "renewal_date": "2026-11-30",
+    "health": "watch",
+    "notes": "Claims team uses the platform daily. Procurement is pushing for a 15 percent discount at renewal. Usage dropped 20 percent in September after their data team was reorganised.",
+    "updated_at": "2026-10-18T11:05:00Z"
+  },
+  {
+    "id": "ACC-1004",
+    "name": "Tailspin Airlines",
+    "industry": "Aviation",
+    "arr_usd": 310000,
+    "owner": "rahul",
+    "renewal_date": "2027-06-30",
+    "health": "healthy",
+    "notes": "Crew-rostering integration with their HR system went live in August. They want an on-premises deployment for the next phase because of data residency rules.",
+    "updated_at": "2026-09-25T08:00:00Z"
+  }
+]

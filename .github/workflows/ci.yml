@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install (builds the C++ BM25 extension)
+        run: pip install -e ".[dev]"
+      - name: Check the C++ backend loaded
+        run: python -c "from conduit.search.bm25 import BACKEND; assert BACKEND == 'cpp', BACKEND"
+      - name: Test
+        run: pytest -q
